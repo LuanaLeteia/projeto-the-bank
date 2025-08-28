@@ -1,4 +1,4 @@
-💻 Projeto Menu - Site Responsivo com HTML e CSS
+# Projeto The Bank 💻
 
 Este é um projeto simples e responsivo de um menu de navegação.
 Desenvolvido como exercício de aprendizado de HTML e CSS, utilizando conceitos de Flexbox, estilização moderna e design adaptável para diferentes tamanhos de tela.
