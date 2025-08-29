@@ -1,4 +1,6 @@
-# Projeto The Bank 💻
+# Projeto The Bank 💻   > 🔧 Em processo de melhorias <
+
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 
 Este é um projeto simples e responsivo de um menu de navegação.
 Desenvolvido como exercício de aprendizado de HTML e CSS, utilizando conceitos de Flexbox, estilização moderna e design adaptável para diferentes tamanhos de tela.
