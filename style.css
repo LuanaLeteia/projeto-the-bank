@@ -1,45 +1,45 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #fff;
 }
 
 .cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  background-color: #fff;
+  padding: 10px 40px;
 }
 
-.logo-area {
+.cabecalho .logo-area {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.logo {
+.cabecalho .logo {
   width: 40px;
   height: auto;
 }
 
-.nome {
+.cabecalho .nome {
   font-size: 18px;
   font-weight: 700;
   color: #000;
 }
 
-.menu {
+.cabecalho .menu {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.icones {
+.cabecalho .icones {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-.icones li a {
+.cabecalho .icones li a {
   text-decoration: none;
   color: #000;
   padding: 8px 12px;
@@ -48,12 +48,12 @@ body {
   font-weight: 500;
 }
 
-.icones li a:hover {
+.cabecalho .icones li a:hover {
   background-color: #4CAF50;
   color: #fff;
 }
 
-.btn-cadastro {
+.cabecalho .btn-cadastro {
   background-color: #4CAF50;
   color: white;
   padding: 10px 20px;
@@ -64,9 +64,97 @@ body {
   cursor: pointer;
 }
 
-.btn-cadastro:hover {
+.cabecalho .btn-cadastro:hover {
   background-color: #43a047;
   box-shadow: 0 0 10px #4CAF50;
+}
+
+.sobre {
+  display: flex;
+  align-items: center; /* Alinha verticalmente ao centro */
+  justify-content: space-between; /* Distribui o espaço entre os elementos */
+  gap: 40px; /* Espaço entre o texto e a imagem */
+  padding: 40px; /* Adiciona um espaçamento interno */
+  line-height: 1.5;
+}
+
+.sobre .titulo-sobre{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.sobre .info-sobre{
+  max-width: 600px; /* Limita a largura máxima do texto */
+}
+
+.sobre img {
+  width: 30%; /* Ajusta a largura da imagem */
+}
+
+.conteudos{
+  display: flex;
+  justify-content: space-between; /* Distribui o espaço entre os elementos */
+  padding: 40px; /* Adiciona um espaçamento interno */
+  line-height: 1.5;
+}
+
+.conteudos .blog{
+  max-width: 500px; /* Limita a largura máxima do texto */
+}
+
+.conteudos .titulo-blog{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.conteudos .info-blog{
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.conteudos .img-blog{
+  width: 30%; /* Ajusta a largura da imagem */
+}
+
+.conteudos .carreira{
+  max-width: 500px; /* Limita a largura máxima do texto */
+}
+
+.conteudos .titulo-carreira{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.conteudos .info-carreira{
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.conteudos .btn-curriculo{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: background-color 0.1s;
+  cursor: pointer;
+}
+
+.conteudos .btn-curriculo:hover {
+  background-color: #43a047;
+  box-shadow: 0 0 5px #4CAF50;
+}
+
+.contato{
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  gap: 30px; /* Espaço entre o texto e a imagem */
+  padding: 40px; /* Adiciona um espaçamento interno */
+}
+
+.contato .icone{
+  width: 40px; /* Ajusta a largura da imagem */
 }
 
 
