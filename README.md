@@ -31,7 +31,7 @@ Foi desenvolvido como prática de HTML e CSS, utilizando conceitos de Flexbox e 
 
 Você pode visualizar o projeto publicado no GitHub Pages através do link:
 
-👉  
+👉  https://luanaleteia.github.io/projeto-the-bank/
 
 ---
 
