@@ -36,7 +36,6 @@ Você pode visualizar o projeto publicado no GitHub Pages através do link:
 
 👀 Preview do Projeto
 
-![Demonstração do site](![Animação The Bank](https://github.com/user-attachments/assets/e2701f15-43a8-4b2b-b9a2-b424ca6e92e0)
-)
+(https://github.com/user-attachments/assets/e2701f15-43a8-4b2b-b9a2-b424ca6e92e0)
 
 
