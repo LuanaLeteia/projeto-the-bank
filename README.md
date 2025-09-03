@@ -1,6 +1,5 @@
 # Projeto The Bank 💻   > 🔧 Em processo de melhorias <
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 
 Este é um projeto de página web responsiva, inspirado em um layout moderno de banco digital.
 Foi desenvolvido como prática de HTML e CSS, utilizando conceitos de Flexbox e Grid para estruturar e alinhar os elementos, além de estilização adaptável para diferentes dispositivos.
@@ -37,5 +36,7 @@ Você pode visualizar o projeto publicado no GitHub Pages através do link:
 
 👀 Preview do Projeto
 
+![Demonstração do site](![Animação The Bank](https://github.com/user-attachments/assets/e2701f15-43a8-4b2b-b9a2-b424ca6e92e0)
+)
 
 
