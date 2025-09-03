@@ -1,6 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #fff;
+  background-color: #e6f7ec;
 }
 
 .cabecalho {
@@ -69,6 +73,18 @@ body {
   box-shadow: 0 0 10px #4CAF50;
 }
 
+h1{
+  color: #111111;
+}
+
+h3{
+  color: #111111;
+}
+
+p {
+  color: #1f3a2e;
+}
+
 .sobre {
   display: flex;
   align-items: center; /* Alinha verticalmente ao centro */
@@ -85,10 +101,32 @@ body {
 
 .sobre .info-sobre{
   max-width: 600px; /* Limita a largura máxima do texto */
+  font-weight: 350;
 }
 
 .sobre img {
   width: 30%; /* Ajusta a largura da imagem */
+}
+
+@keyframes upAndDown {
+  0% {
+    transform: translateX(-50%) translateY(0);   /* posição inicial */
+  }
+  100% {
+    transform: translateX(-50%) translateY(10px); /* vai levemente para baixo */
+  }
+}
+
+/* upAndDown é um nome que dei para a animação, funciona como um "identificador" da animação — o CSS precisa saber qual animação aplicar quando você escreve animation: */
+
+.sobre:after {
+  content: url('./images/seta_preta.png');
+  position: absolute;
+  bottom: 40px;           
+  left: 50%;              
+  transform: translateX(-50%); /* posição inicial */
+  height: 35px;
+  animation: upAndDown 0.8s infinite alternate ease-in-out;
 }
 
 .conteudos{
@@ -110,10 +148,11 @@ body {
 .conteudos .info-blog{
   margin-bottom: 20px;
   font-size: 15px;
+  font-weight: 300;
 }
 
 .conteudos .img-blog{
-  width: 30%; /* Ajusta a largura da imagem */
+  width: 20%; /* Ajusta a largura da imagem */
 }
 
 .conteudos .carreira{
@@ -128,6 +167,7 @@ body {
 .conteudos .info-carreira{
   margin-bottom: 20px;
   font-size: 15px;
+  font-weight: 300;
 }
 
 .conteudos .btn-curriculo{
@@ -155,6 +195,46 @@ body {
 
 .contato .icone{
   width: 40px; /* Ajusta a largura da imagem */
+  margin-top: 100px;
+}
+
+@media (max-width: 1024px) {
+  .sobre {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+  }
+
+  .sobre img {
+    width: 30%; /* Ajusta a largura da imagem para telas menores */
+    margin-top: 20px; /* Espaço entre o texto e a imagem */
+  }
+
+  .sobre:after {
+    content: none; /* remove o conteúdo da seta */
+  }
+
+  .conteudos {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 90px;
+  }
+
+  .conteudos .img-blog {
+    width: 10%; /* Ajusta a largura da imagem para telas menores */
+    margin-top: 20px; /* Espaço entre o texto e a imagem */
+  }
+
+  .conteudos .blog, .conteudos .carreira {
+    max-width: 100%; /* Permite que os textos ocupem toda a largura disponível */
+    margin-bottom: 40px; /* Espaço entre os artigos */
+  }
+
+  .contato {
+    margin-top: 50px;
+  }
 }
 
 
